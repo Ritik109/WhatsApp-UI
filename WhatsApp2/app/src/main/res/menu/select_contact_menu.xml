@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search_badge"
+        android:title="search_contact"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"/>
+    <item android:id="@+id/invite_friend"
+        android:title="Invite a friend"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/contacts"
+        android:title="Contacts"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>
